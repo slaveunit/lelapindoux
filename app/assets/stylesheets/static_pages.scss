@@ -19,9 +19,9 @@ h1 {
 }
 
 p {
-  font-family: 'Seaweed Script', cursive;
+  font-family: 'Homemade Apple', cursive;
   color: #ffd700;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 /*NAVBAR*/
@@ -73,21 +73,51 @@ p {
 
 /*CAROUSEL*/
 .carousel {
-  	top:50px;
+  top:50px;
   z-index: 0;
 }
 
 .carousel p {
-  font-family: 'Seaweed Script', cursive;
+  font-family: 'Homemade Apple', cursive;
   color: white;
   font-size: 2em;
+  text-align: left;
 }
 /*CAROUSEL*/
 
+
+
+
+
+
+/* BIG GLYPHS */
 .landing_info {
   padding-top: 35em;
   padding-bottom: 35em;
+  text-align: center;
 }
+
+.row {
+  width: 90%;
+  margin: auto;
+}
+
+.row .glyphicon  {
+    font-size: 9em;
+    color: #ffd700;
+    padding-top: 16%;
+    padding-bottom: 0;
+}
+
+.row .bigglyphs {
+	text-align: center;
+}
+
+.row img {
+	padding-bottom: 8%;
+	text-align: center;
+}
+/* BIG GLYPHS */
 
 
 

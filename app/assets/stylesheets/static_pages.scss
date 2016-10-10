@@ -1,0 +1,83 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  margin: 0;
+  background-color: #0000e5;
+}
+
+/*NAVBAR*/
+#nav {
+	top: 0;
+	background-color: #0000e5;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+  z-index: +1
+}
+
+.navbar {
+	height: 50px
+}
+
+.navhome {
+	width: 20%;
+	float: left;
+}
+
+.menu {
+	width: 70%;
+	display: inline-block;
+}
+
+.navbar-collapse {
+	float: right;
+}
+
+.nav li a {
+	margin-left: 1em;
+	margin-right: 1em
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: orange;}
+
+.nav a {
+	transition: color 950ms;
+}
+/*NAVBAR*/
+
+
+
+
+
+
+/*CAROUSEL*/
+
+/*CAROUSEL*/
+
+
+
+
+
+
+
+/*LANDING PAGE VID*/
+.landing_vid {
+	position:relative;
+	padding-bottom:42.25%;
+	height:0;
+	overflow:hidden;
+  width:75%;
+  margin:auto;
+}
+
+.landing_vid iframe, .landing_vid object, .landing_vid embed {
+	position:absolute;
+	top:50px;
+	left:0;
+	width:100%;
+	height:100%;
+}
+/*LANDING PAGE VID*/

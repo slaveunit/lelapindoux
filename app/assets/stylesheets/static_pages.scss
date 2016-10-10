@@ -7,6 +7,23 @@ body {
   background-color: #0000e5;
 }
 
+.container {
+  width: 100%;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Chelsea Market', cursive;
+  color: #ffd700;
+  font-size: 4em;
+}
+
+p {
+  font-family: 'Seaweed Script', cursive;
+  color: #ffd700;
+  font-size: 3em;
+}
+
 /*NAVBAR*/
 #nav {
 	top: 0;
@@ -14,11 +31,12 @@ body {
 	position: fixed;
 	width: 100%;
 	height: 50px;
-  z-index: +1
+  z-index: +1;
+	opacity: 0.75;
 }
 
 .navbar {
-	height: 50px
+	height: 50px;
 }
 
 .navhome {
@@ -54,30 +72,24 @@ body {
 
 
 /*CAROUSEL*/
+.carousel {
+  	top:50px;
+  z-index: 0;
+}
 
+.carousel p {
+  font-family: 'Seaweed Script', cursive;
+  color: white;
+  font-size: 2em;
+}
 /*CAROUSEL*/
 
-
-
-
-
-
-
-/*LANDING PAGE VID*/
-.landing_vid {
-	position:relative;
-	padding-bottom:42.25%;
-	height:0;
-	overflow:hidden;
-  width:75%;
-  margin:auto;
+.landing_info {
+  padding-top: 35em;
+  padding-bottom: 35em;
 }
 
-.landing_vid iframe, .landing_vid object, .landing_vid embed {
-	position:absolute;
-	top:50px;
-	left:0;
-	width:100%;
-	height:100%;
-}
-/*LANDING PAGE VID*/
+
+
+
+

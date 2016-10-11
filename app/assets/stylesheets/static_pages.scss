@@ -18,6 +18,12 @@ h1 {
   font-size: 4em;
 }
 
+h2 {
+  font-family: 'Chelsea Market', cursive;
+  color: #ffd700;
+  font-size: 2em;
+}
+
 p {
   font-family: 'Homemade Apple', cursive;
   color: #ffd700;
@@ -128,4 +134,33 @@ p {
 
 
 
+/* BLOG ENTTRIES */
+.blog_entry h1 {
+  font-family: 'Chelsea Market', cursive;
+  color: #ffd700;
+  font-size: 4em;
+}
 
+.blog_entry h2 {
+  font-family: 'Chelsea Market', cursive;
+  color: #ffd700;
+  font-size: 2em;
+}
+
+.blog_entry p {
+  font-family: 'Homemade Apple', cursive;
+  color: #ffd700;
+  font-size: 2em;
+}
+
+.blog_entry {
+  padding-top: 10%;
+  padding-bottom: 45%;
+    width: 90%;
+    margin: auto;
+}
+
+.pic {
+    margin: auto;
+}
+/* BLOG ENTTRIES */

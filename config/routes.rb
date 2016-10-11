@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'static_pages/blog_entry_test'
+
   get 'static_pages/blog'
 
   get 'static_pages/contact'

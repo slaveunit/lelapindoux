@@ -32,11 +32,31 @@
         <div class="navhome" id="navhome">
          <a href="/" alt="Diablo"><img src="https://s3-us-west-2.amazonaws.com/lelapindoux/LOGO+LONG+YELLOW+FOR+NAVBAR.png"></a>
         </div>
-        <div class="menu">
-          <a href="/static_pages/blog.html" alt="Diablo"><span class="glyphicon glyphicon-bullhorn" data-toggle="tooltip" data-placement="right" title="Click on the green pill, stay in wonderland, and I show you how deep the rabbit hole goes."></span></a>
-          <a href="/static_pages/contact.html" alt="Diablo"><span class="glyphicon glyphicon-phone-alt" data-toggle="tooltip" data-placement="right" title="Click on the green pill, stay in wonderland, and I show you how deep the rabbit hole goes."></span></a>
-          <a href="/static_pages/about.html" alt="Diablo"><span class="glyphicon glyphicon-question-sign" data-toggle="tooltip" data-placement="right" title="Click on the green pill, stay in wonderland, and I show you how deep the rabbit hole goes."></span></a>
-          <span class="glyphicon glyphicon-shopping-cart" data-toggle="tooltip" data-placement="right" title="This are is under construction. :)"></span>
+        <div class="container-fluid menu">
+
+
+
+
+           <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="/static_pages/blog.html" alt="Diablo"><span class="glyphicon glyphicon-bullhorn" data-toggle="tooltip" data-placement="right" title="Click on the green pill, stay in wonderland, and I show you how deep the rabbit hole goes."></span></a></li>
+              <li><a href="/static_pages/contact.html" alt="Diablo"><span class="glyphicon glyphicon-phone-alt" data-toggle="tooltip" data-placement="right" title="Click on the green pill, stay in wonderland, and I show you how deep the rabbit hole goes."></span></a></li>
+              <li><a href="/static_pages/about.html" alt="Diablo"><span class="glyphicon glyphicon-question-sign" data-toggle="tooltip" data-placement="right" title="Click on the green pill, stay in wonderland, and I show you how deep the rabbit hole goes."></span></a></li>
+              <li><a><span class="glyphicon glyphicon-shopping-cart" data-toggle="tooltip" data-placement="right" title="This are is under construction. :)"></span></a></li>
+            </ul>
+          </div>
+
+
+
+
         </div><!--END MENU -->
 
       </nav> <!-- end nav -->
@@ -47,6 +67,65 @@
 
 
 <%= yield %>
+
+
+
+
+
+
+
+
+<!--FOOTER -->
+    <footer class="visible-lg-block visible-md-block" id="footer-lg">
+
+<!-- SOCIAL Footer
+      <div class="socialfooter">
+        <a href="https://instagram.com/slave_unit" target="_blank"><img src="img/instagram logo sm.png"></a><a href="https://slav3unit.bandcamp.com/releases" target="_blank"><img src="img/bc foot.png"></a><a href="https://www.flickr.com/photos/gracinhamarco/" target="_blank"><img src="img/flickr foot sm.png"></a>
+      </div>
+end socialfooter -->
+
+      <!-- FB Like -->
+      <div class="fb-like" data-href="https://lelapindoux.herokuapp.com/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+
+      <div class="footerlogo">
+        <div class="footerlogoinside">
+          &copy <a href="http://slaveunit.bitballoon.com/"><img src="https://s3-us-west-2.amazonaws.com/lelapindoux/SUWD+LOGO.jpg"></a> 2016
+        </div>
+      </div><!-- end footerlogo -->
+
+    </footer>
+
+
+  
+<!-- mobile footer -->
+    <footer class="visible-sm-block visible-xs-block" id="footer-sm">
+
+      <div class="fb-like-sm">
+        <div class="fb-like" data-href="https://lelapindoux.herokuapp.com/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+      </div><!-- end fb-like-sm -->
+
+<!-- FOOTER MOBILE
+      <div class="socialfooter-sm">
+        <a href="https://instagram.com/slave_unit" target="_blank"><img src="img/Instagram Logo.png"></a><a href="https://slav3unit.bandcamp.com/releases" target="_blank"><img src="img/bc mob2.png"></a><a href="https://www.flickr.com/photos/gracinhamarco/" target="_blank"><img src="img/flickr foot.png"></a>
+      </div>
+end socialfooter-sm -->
+
+      <div class="footerlogo-sm">
+        <div class="footerlogoinside">
+          &copy <a href="http://slaveunit.bitballoon.com/"><img src="https://s3-us-west-2.amazonaws.com/lelapindoux/SUWD+LOGO.jpg"></a> 2016
+        </div><!-- end footerlogoinside -->
+      </div><!-- end footerlogo-sm -->
+<!-- mobile footer -->
+      
+      
+      
+
+    </footer><!-- end footer visible-sm -->
+<!--FOOTER -->
+
+
+
+
 
 </body>
 </html>

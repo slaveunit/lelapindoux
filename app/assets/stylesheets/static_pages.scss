@@ -54,14 +54,16 @@ p {
 	width: 70%;
 	display: inline-block;
   text-align: right;
-  font-size: 28px;
-  padding-top: 7px;
+  font-size: 20px;
+}
+
+.menu li a {
+  height: 50px;
 }
 
 .menu .glyphicon {
   color: #ffd700;
   padding-right: 2em;
-
 }
 
 .navbar-collapse {
@@ -70,16 +72,114 @@ p {
 
 .nav li a {
 	margin-left: 1em;
-	margin-right: 1em
 }
 
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: orange;}
+.nav a :hover {
+    color: white;
+  transition: color 950ms;
+}
 
-.nav a {
-	transition: color 950ms;
+.menu {
+  float: right;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #ffd700;
 }
 /*NAVBAR*/
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+.disclaimer {
+	padding-top: 50em;
+	width: 98%;
+	text-align: right;
+
+}
+
+.blank {
+	width: 95%;
+	height: 2em;
+	padding-top: 0;
+	text-align: right;
+	margin: auto;
+	border-bottom : 1px solid #262626;
+}
+
+#footer-lg {
+	width: 95%;
+	height: 50px;
+	margin: auto;
+	padding-bottom: 5em
+}
+
+.fb-like {
+	float: left;
+	padding-bottom: 2em;
+	height: 50px
+}
+
+.socialfooter {
+	width: 10%;
+	float: left;
+	padding-bottom: 2em;
+	height: 50px;
+	padding-left: 4px;
+}
+
+.socialfooter img {
+	padding-left: 6px;
+}
+
+.footerlogo {
+	width: 50%;
+	height: 50px;
+	display: inline-block;
+    float: right;
+    font-family: 'Chelsea Market', cursive;
+  color: #ffd700;
+    font-size: 175%;
+}
+
+#footer-lg .footerlogoinside {
+	float: right;
+}
+
+/*FOOTER MOBILE*/
+#footer-sm {
+	text-align: right;
+	padding-bottom: 1em;
+}
+
+.socialfooter-sm {
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+.footerlogo-sm {
+	padding-left: 0;
+	padding-right: 0;
+	text-align: right;
+}
+
+#footer-sm > div.fb-like-sm > div {
+	float: inherit;
+}
+/*FOOTER MOBILE*/
+
+/*FOOTER*/
+
+
 
 
 
@@ -118,10 +218,10 @@ p {
 }
 
 .row .glyphicon  {
-    font-size: 9em;
-    color: #ffd700;
-    padding-top: 16%;
-    padding-bottom: 0;
+  font-size: 9em;
+  color: #ffd700;
+  padding-top: 16%;
+  padding-bottom: 0;
 }
 
 .row .bigglyphs {
@@ -165,11 +265,11 @@ p {
 .blog-entry {
   padding-top: 10%;
   padding-bottom: 45%;
-    width: 90%;
-    margin: auto;
+  width: 90%;
+  margin: auto;
 }
 
 .pic {
-    margin: auto;
+  margin: auto;
 }
 /* BLOG ENTTRIES */

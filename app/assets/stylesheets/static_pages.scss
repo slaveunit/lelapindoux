@@ -98,6 +98,17 @@ p {
 
 /*FOOTER*/
 
+.back-button {
+  margin: auto;
+  width: 90%;
+}
+
+.back-button p {
+  font-family: 'Chelsea Market', cursive;
+  color: #ffd700;
+  font-size: 1em;
+}
+
 .disclaimer {
 	padding-top: 50em;
 	width: 98%;
@@ -208,7 +219,7 @@ p {
 /* BIG GLYPHS */
 .landing_info {
   padding-top: 35em;
-  padding-bottom: 70em;
+  padding-bottom: 28em;
   text-align: center;
 }
 
@@ -243,7 +254,7 @@ p {
 
 
 
-/* BLOG ENTTRIES */
+/* BLOG ENTRIES */
 .blog-entry h1 {
   font-family: 'Chelsea Market', cursive;
   color: #ffd700;
@@ -264,7 +275,7 @@ p {
 
 .blog-entry {
   padding-top: 10%;
-  padding-bottom: 45%;
+  padding-bottom: 28%;
   width: 90%;
   margin: auto;
 }
@@ -272,4 +283,4 @@ p {
 .pic {
   margin: auto;
 }
-/* BLOG ENTTRIES */
+/* BLOG ENTRIES */
